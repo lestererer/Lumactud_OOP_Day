@@ -95,7 +95,7 @@ public class Tester {
             }
             
         } else if (code == 5) {
-            AdvancedTextEditor testEditor = new AdvancedTextEditor("abc");
+            AdvanceTextEditor testEditor = new AdvanceTextEditor("abc");
             System.out.println(testEditor.getText());
             testEditor.append("defg");
             System.out.println(testEditor.getText());
